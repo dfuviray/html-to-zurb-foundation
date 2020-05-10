@@ -102,6 +102,10 @@ vertical-align: middle;
 }
 
 /* BOXES STYLES */
+.boxes {
+   padding-top:50px;
+  padding-bottom:50px;
+}
 .card {
   text-align: center;
   color: #3292a6;
@@ -147,6 +151,8 @@ vertical-align: middle;
 /* AUTHORS */
 
 .authors {
+   padding-top:50px;
+  padding-bottom:50px;
   text-align: center;
 }
 
@@ -163,6 +169,11 @@ vertical-align: middle;
 }
 
 /* CONTACT STYLES */
+.contact {
+   padding-top:50px;
+  padding-bottom:50px;
+  background-color: #f8f9fa ;
+}
 .contact img{
   position: relative;
   top: 70px;
