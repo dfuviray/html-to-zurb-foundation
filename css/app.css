@@ -1,0 +1,207 @@
+/* GLOBAL STYLES */
+.container {
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.padded-column {
+  padding: 10px;
+}
+
+.button.primary {
+  background-color: #3292a6;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+[type="text"]{
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+.section-title {
+  color: #3292a6;
+}
+
+.section-subtitle {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  color: #6c757d ;
+}
+/* NAVIGATION */
+.top-bar {
+  padding: 24px;
+  box-shadow: 2px 2px 5px #3292a6;
+}
+
+.top-bar, .top-bar-right ul {
+    background-color: white;
+}
+
+.logo img{
+  width: 50px;
+  height: 50px;
+vertical-align: middle;
+}
+
+.logo h3{
+  color: black;
+  display: inline-block;
+  position: relative;
+  top:5px;
+}
+
+.menu a {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+}
+
+/* HERO STYLES */
+.hero .container {
+   color: white;
+   text-align: center;
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background-image: linear-gradient(rgba(50, 146, 166, 0.8),rgba(50, 146, 166, 0.8)),url('../assets/img/mountains.jpg');
+  padding-top: 100px;
+}
+
+.hero img {
+  width: 80%;
+  position: relative;
+  top: -140px;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+.hero img {
+  top: -40px;
+}
+}
+
+.hero h1 {
+  font-size: 75px;
+  font-weight: 100;
+}
+
+@media(max-width: 639px) {
+  .hero h1 {
+    font-size: 58px;
+  }
+}
+
+.hero .button.secondary {
+  color: white;
+}
+
+/* SUBSCRIPTION STYLES */
+.subscription {
+  padding-top: 20px;
+  background-color: #343a40;
+}
+
+/* BOXES STYLES */
+.card {
+  text-align: center;
+  color: #3292a6;
+   border-radius: 5px;
+   border: 1px solid #3292a6;
+}
+
+.card:last-of-type {
+  margin-right: 0;
+}
+
+.boxes .box:nth-of-type(even) .card, .boxes .box:nth-of-type(even) .card p {
+  background-color: #3292a6;
+  color: #fff;
+}
+
+
+.box {
+   padding: 20px;
+}
+
+@media(max-width: 639px) { 
+  .box {
+    margin: 0;
+  }
+}
+
+.card p {
+  color: #6c757d ;
+}
+
+
+/* BOOK STYLES */
+
+.book {
+  background-color: #f8f9fa;
+  padding-top:50px;
+  padding-bottom:50px;
+  text-align: center;
+}
+
+
+/* AUTHORS */
+
+.authors {
+  text-align: center;
+}
+
+.authors .card {
+  overflow: initial;
+  padding: 0px 30px 30px 30px;
+}
+.authors img {
+  width: 120px;
+  border-radius: 1111px;
+  position: relative;
+  top: -50px;
+  margin: 0 auto;
+}
+
+/* CONTACT STYLES */
+.contact img{
+  position: relative;
+  top: 70px;
+}
+
+
+/* FOOTER STYLES */
+footer {
+  background-color: rgba(50, 146, 166, 1);
+  padding: 20px;
+  color: white;
+}
+
+
+
+/* MOBILE MENU STYLES */
+@media(max-width: 639px) {
+
+
+    .top-bar .top-bar-left, .top-bar .top-bar-right {
+        flex: none;
+    }
+
+}
+
+.off-canvas  {
+  background-color: white;
+}
+
+.position-left.is-transition-push{
+
+  box-shadow:inset -13px 0 20px -13px rgba(50, 146, 166,.5);
+}
+
+.js-off-canvas-overlay {
+  background: none;
+}
+
+.menu-mobile .fa-bars {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
